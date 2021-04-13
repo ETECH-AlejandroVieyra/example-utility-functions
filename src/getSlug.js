@@ -1,3 +1,3 @@
-const URLSlug = (words) => words.replace(/\s+/g, '-').toLowerCase();
+const URLSlug = (words) => words.replace(/\s+/g, '-').toUpperCase();
 
 export default URLSlug;
